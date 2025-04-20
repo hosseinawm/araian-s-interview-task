@@ -220,10 +220,7 @@ const Register = () => {
               </Button>
               <Typography sx={{ display: "flex", justifyContent: "center" }}>
                 Already have an account?{" "}
-                <Link
-                  style={{ marginLeft: "3px", color: "black" }}
-                  to="/login/"
-                >
+                <Link style={{ marginLeft: "3px", color: "black" }} to="/">
                   Sign in
                 </Link>
               </Typography>
